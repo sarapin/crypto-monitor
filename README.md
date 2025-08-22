@@ -1,9 +1,6 @@
-```markdown
 # Crypto Monitor
 
-**Test task for Back-End Developer position**
-
-A lightweight **Django API service** that retrieves real-time crypto prices from multiple exchanges (**Binance, Kraken**) via **WebSockets**.  
+A lightweight **Django API service** that retrieves real-time crypto prices from multiple exchanges (**Binance, Kraken**).  
 No DB. No REST calls at request time. Docker-ready.
 
 ---
@@ -62,6 +59,3 @@ docker run -p 8000:8000 crypto-monitor
 ```
 
 API available at: [http://localhost:8000/api/prices/](http://localhost:8000/api/prices/)
-
-```
-```
